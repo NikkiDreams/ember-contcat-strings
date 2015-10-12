@@ -4,7 +4,7 @@ module.exports = {
   normalizeEntityName: function() {},
 
   afterInstall: function() {
-    return this.addAddonToProject({name:'ember-concat-strings', verion:'0.0.2'});
+    return this.addAddonToProject('ember-concat-strings');
   }
 
 

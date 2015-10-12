@@ -3,7 +3,7 @@
 
 
 module.exports = {
-  name: 'ember-concat-strings',
+  name: 'concat-strings',
 
   isDevelopingAddon: function() {
     return true;
