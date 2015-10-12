@@ -1,14 +1,10 @@
 module.exports = {
-  description: '',
+  description: "",
 
-  //normalizeEntityName: function() {
-    // this prevents an error when the entityName is
-    // not specified (since that doesn't actually matter
-    // to us
-  //},
+  normalizeEntityName: function() {},
 
   afterInstall: function() {
-    return this.addAddonToProject('concat-strings', '0.0.1');
+    return this.addAddonToProject({name:'ember-concat-strings', verion:'0.0.2'});
   }
 
 

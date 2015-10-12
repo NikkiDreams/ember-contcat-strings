@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export function concatStrings(params/*, hash*/) {
-
+  name: "concat-strings",
   var str = "", i = 0;
   while (params[i]) {
       str += params[i];
