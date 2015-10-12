@@ -1,1 +1,0 @@
-export { default } from 'ember-concat-strings/components/cs-text';

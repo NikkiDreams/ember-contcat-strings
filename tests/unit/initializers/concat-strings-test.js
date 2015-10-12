@@ -1,10 +1,10 @@
 import Ember from 'ember';
-import { initialize } from '../../../initializers/embaer-concat-strings';
+import { initialize } from '../../../initializers/concat-strings';
 import { module, test } from 'qunit';
 
 var registry, application;
 
-module('Unit | Initializer | embaer concat strings', {
+module('Unit | Initializer | concat strings', {
   beforeEach: function() {
     Ember.run(function() {
       application = Ember.Application.create();
